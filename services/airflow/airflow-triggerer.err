@@ -1,0 +1,5 @@
+[2024-09-21 23:27:38 +0300] [23063] [INFO] Starting gunicorn 22.0.0
+[2024-09-21 23:27:38 +0300] [23063] [INFO] Listening at: http://[::]:8794 (23063)
+[2024-09-21 23:27:38 +0300] [23063] [INFO] Using worker: sync
+[2024-09-21 23:27:38 +0300] [23064] [INFO] Booting worker with pid: 23064
+[2024-09-21 23:27:38 +0300] [23065] [INFO] Booting worker with pid: 23065

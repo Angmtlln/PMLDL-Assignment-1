@@ -171,3 +171,4 @@ flagged
 .vscode
 outputs
 datastore
+dvcstore

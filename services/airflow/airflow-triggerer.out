@@ -1,0 +1,97 @@
+[[34m2024-09-21T23:27:38.485+0300[0m] {[34mtriggerer_job_runner.py:[0m171} INFO[0m - Setting up TriggererHandlerWrapper with handler <FileTaskHandler (NOTSET)>[0m
+[[34m2024-09-21T23:27:38.487+0300[0m] {[34mtriggerer_job_runner.py:[0m227} INFO[0m - Setting up logging queue listener with handlers [<RedirectStdHandler <stdout> (NOTSET)>, <NonCachingFileHandler /home/amir/MlOps/services/airflow/logs/triggerer.log (NOTSET)>, <TriggererHandlerWrapper (NOTSET)>][0m
+[[34m2024-09-21T23:27:38.503+0300[0m] {[34mtriggerer_job_runner.py:[0m324} INFO[0m - Starting the triggerer[0m
+[[34m2024-09-21T23:27:41.942+0300[0m] {[34mserve_logs.py:[0m83} WARNING[0m - The Authorization header is missing: Host: localhost:8794
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Pycharm-c57b529b=b2dae10a-21a2-4cf3-b046-974b859022bf; username-localhost-8888="2|1:0|10:1724753520|23:username-localhost-8888|192:eyJ1c2VybmFtZSI6ICI1NmUxYTkzOGViNDg0ZTViYjg0ZTM4NWNjNmIxNDdmMyIsICJuYW1lIjogIkFub255bW91cyBIZXJzZSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEhlcnNlIiwgImluaXRpYWxzIjogIkFIIiwgImNvbG9yIjogbnVsbH0=|310f29f1a91fa1f447d705de6d4d852b88aeb0084076b4c0560f3726003bba4d"; _xsrf=2|0d73097b|1d6a70367e248aced8a61fef940e1046|1724753520; session=26c85c3e-2bc6-4bca-9628-6b5737b65f28.JuR895cAYEKhN0dvznkKi64Zgbg
+
+.[0m
+[[34m2024-09-21T23:27:41.944+0300[0m] {[34mserve_logs.py:[0m127} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/airflow/utils/serve_logs.py", line 84, in validate_pre_signed_url
+    abort(403)
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2024-09-21T23:27:42.024+0300[0m] {[34mserve_logs.py:[0m83} WARNING[0m - The Authorization header is missing: Host: localhost:8794
+Connection: keep-alive
+Sec-Ch-Ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:8794/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: Pycharm-c57b529b=b2dae10a-21a2-4cf3-b046-974b859022bf; username-localhost-8888="2|1:0|10:1724753520|23:username-localhost-8888|192:eyJ1c2VybmFtZSI6ICI1NmUxYTkzOGViNDg0ZTViYjg0ZTM4NWNjNmIxNDdmMyIsICJuYW1lIjogIkFub255bW91cyBIZXJzZSIsICJkaXNwbGF5X25hbWUiOiAiQW5vbnltb3VzIEhlcnNlIiwgImluaXRpYWxzIjogIkFIIiwgImNvbG9yIjogbnVsbH0=|310f29f1a91fa1f447d705de6d4d852b88aeb0084076b4c0560f3726003bba4d"; _xsrf=2|0d73097b|1d6a70367e248aced8a61fef940e1046|1724753520; session=26c85c3e-2bc6-4bca-9628-6b5737b65f28.JuR895cAYEKhN0dvznkKi64Zgbg
+
+.[0m
+[[34m2024-09-21T23:27:42.025+0300[0m] {[34mserve_logs.py:[0m127} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/airflow/utils/serve_logs.py", line 84, in validate_pre_signed_url
+    abort(403)
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2024-09-21T23:28:38.567+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:29:38.635+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:30:38.697+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:31:38.761+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:32:38.818+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:33:38.883+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:34:38.944+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:35:39.006+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:36:39.066+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:37:39.123+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:38:39.189+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:39:39.247+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:40:39.309+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:41:39.376+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:42:39.439+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:43:39.510+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:44:39.576+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:45:39.638+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:46:39.704+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:47:39.766+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:48:39.822+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:49:39.891+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:50:39.959+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:51:40.021+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:52:40.093+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:53:40.150+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:54:40.210+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:55:40.279+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:56:40.337+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:57:40.397+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:58:40.457+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-21T23:59:40.521+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:00:40.570+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:01:40.622+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:02:40.686+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:03:40.754+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:04:40.811+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:05:40.879+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:06:40.941+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:07:41.002+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:08:41.062+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:09:41.131+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
+[[34m2024-09-22T00:10:41.191+0300[0m] {[34mtriggerer_job_runner.py:[0m474} INFO[0m - 0 triggers currently running[0m
