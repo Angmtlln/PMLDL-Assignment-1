@@ -12,3 +12,171 @@
 2024-09-21 23:58:24,265 INFO - Adopting or resetting orphaned tasks for active dag runs
 2024-09-22 00:03:24,417 INFO - Adopting or resetting orphaned tasks for active dag runs
 2024-09-22 00:08:24,568 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:13:24,719 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:18:24,871 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:23:25,022 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:28:25,174 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:33:25,325 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:38:25,389 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:43:25,552 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:48:25,705 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:53:25,857 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 00:58:26,009 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:03:26,164 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:08:26,178 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:13:26,328 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:18:26,482 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:23:26,635 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:28:26,790 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:33:26,944 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:38:27,098 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:43:27,350 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 01:45:55,819 INFO - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:45:54.465140+00:00 [scheduled]>
+2024-09-22 01:45:55,820 INFO - DAG data_prepare_dag has 0/16 running and queued tasks
+2024-09-22 01:45:55,820 INFO - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:45:54.465140+00:00 [scheduled]>
+2024-09-22 01:45:55,821 WARNING - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved
+2024-09-22 01:45:55,821 INFO - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:45:54.465140+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-09-22 01:45:55,821 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:45:54.465140+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 01:45:55,830 INFO - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:45:54.465140+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 01:45:57,742 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:45:54.465140+00:00', try_number=1, map_index=-1)
+2024-09-22 01:45:57,747 INFO - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-21T22:45:54.465140+00:00, map_index=-1, run_start_date=2024-09-21 22:45:57.225212+00:00, run_end_date=2024-09-21 22:45:57.356416+00:00, run_duration=0.131204, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-21 22:45:55.820464+00:00, queued_by_job_id=1, pid=64553
+2024-09-22 01:45:57,893 ERROR - Marking run <DagRun data_prepare_dag @ 2024-09-21 22:45:54.465140+00:00: manual__2024-09-21T22:45:54.465140+00:00, state:running, queued_at: 2024-09-21 22:45:54.488378+00:00. externally triggered: True> failed
+2024-09-22 01:45:57,894 INFO - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-21 22:45:54.465140+00:00, run_id=manual__2024-09-21T22:45:54.465140+00:00, run_start_date=2024-09-21 22:45:55.782981+00:00, run_end_date=2024-09-21 22:45:57.894310+00:00, run_duration=2.111329, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-09-21 22:45:54.465140+00:00, data_interval_end=2024-09-21 22:45:54.465140+00:00, dag_hash=22d627aa84e9792d511ab7bb5204c77e
+2024-09-22 01:46:37,341 INFO - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:46:36.086164+00:00 [scheduled]>
+2024-09-22 01:46:37,341 INFO - DAG data_prepare_dag has 0/16 running and queued tasks
+2024-09-22 01:46:37,341 INFO - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:46:36.086164+00:00 [scheduled]>
+2024-09-22 01:46:37,342 WARNING - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved
+2024-09-22 01:46:37,342 INFO - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:46:36.086164+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-09-22 01:46:37,343 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:46:36.086164+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 01:46:37,350 INFO - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:46:36.086164+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 01:46:49,137 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:46:36.086164+00:00', try_number=1, map_index=-1)
+2024-09-22 01:46:49,140 INFO - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-21T22:46:36.086164+00:00, map_index=-1, run_start_date=2024-09-21 22:46:38.795221+00:00, run_end_date=2024-09-21 22:46:48.731375+00:00, run_duration=9.936154, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-21 22:46:37.341640+00:00, queued_by_job_id=1, pid=64764
+2024-09-22 01:46:49,300 INFO - Marking run <DagRun data_prepare_dag @ 2024-09-21 22:46:36.086164+00:00: manual__2024-09-21T22:46:36.086164+00:00, state:running, queued_at: 2024-09-21 22:46:36.095038+00:00. externally triggered: True> successful
+2024-09-22 01:46:49,300 INFO - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-21 22:46:36.086164+00:00, run_id=manual__2024-09-21T22:46:36.086164+00:00, run_start_date=2024-09-21 22:46:37.310762+00:00, run_end_date=2024-09-21 22:46:49.300933+00:00, run_duration=11.990171, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-21 22:46:36.086164+00:00, data_interval_end=2024-09-21 22:46:36.086164+00:00, dag_hash=22d627aa84e9792d511ab7bb5204c77e
+2024-09-22 12:07:29,269 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:12:29,423 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:17:29,677 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:22:29,932 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:27:30,479 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:32:30,638 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:37:30,896 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:51:44,234 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 12:51:44,236 INFO - Marked 1 SchedulerJob instances as failed
+2024-09-22 12:56:44,303 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:01:44,438 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:06:44,584 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:11:44,719 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:16:44,853 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:21:44,993 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:26:45,130 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:31:45,263 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:36:45,272 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:41:45,406 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:46:45,540 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:51:45,632 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 13:56:45,767 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:01:45,902 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:06:46,036 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:11:46,171 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:16:46,306 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:21:46,545 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:26:46,780 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:31:46,916 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:36:47,051 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:41:47,186 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:46:47,335 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:51:47,470 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 14:56:47,604 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:01:47,742 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:06:47,877 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:11:48,010 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:16:48,146 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:21:48,207 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:26:48,342 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:31:48,478 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:36:48,614 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:41:48,749 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:46:48,885 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:51:49,323 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 15:55:38,377 INFO - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-22T12:55:37.857242+00:00 [scheduled]>
+2024-09-22 15:55:38,377 INFO - DAG data_prepare_dag has 0/16 running and queued tasks
+2024-09-22 15:55:38,377 INFO - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-22T12:55:37.857242+00:00 [scheduled]>
+2024-09-22 15:55:38,378 WARNING - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved
+2024-09-22 15:55:38,379 INFO - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-22T12:55:37.857242+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-09-22 15:55:38,379 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-22T12:55:37.857242+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 15:55:38,389 INFO - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-22T12:55:37.857242+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py']
+2024-09-22 15:55:50,664 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-22T12:55:37.857242+00:00', try_number=1, map_index=-1)
+2024-09-22 15:55:50,667 INFO - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-22T12:55:37.857242+00:00, map_index=-1, run_start_date=2024-09-22 12:55:39.811813+00:00, run_end_date=2024-09-22 12:55:50.255617+00:00, run_duration=10.443804, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-22 12:55:38.378256+00:00, queued_by_job_id=1, pid=139995
+2024-09-22 15:55:50,818 INFO - Marking run <DagRun data_prepare_dag @ 2024-09-22 12:55:37.857242+00:00: manual__2024-09-22T12:55:37.857242+00:00, state:running, queued_at: 2024-09-22 12:55:37.865088+00:00. externally triggered: True> successful
+2024-09-22 15:55:50,818 INFO - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-22 12:55:37.857242+00:00, run_id=manual__2024-09-22T12:55:37.857242+00:00, run_start_date=2024-09-22 12:55:38.347479+00:00, run_end_date=2024-09-22 12:55:50.818350+00:00, run_duration=12.470871, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-22 12:55:37.857242+00:00, data_interval_end=2024-09-22 12:55:37.857242+00:00, dag_hash=37f0d3f4ebc2e07bc83c74887c834790
+2024-09-22 15:56:49,417 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 16:01:49,553 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 16:06:49,800 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:18:33,726 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:23:33,816 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:28:33,951 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:33:34,087 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:38:34,235 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:43:34,370 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:48:34,460 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:53:34,596 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 21:58:34,730 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:03:34,744 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:08:34,824 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:13:34,962 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:18:35,181 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:23:35,316 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:28:35,450 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:33:35,597 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:38:35,745 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:43:35,985 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:48:36,335 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:53:36,491 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 22:58:36,647 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:03:36,791 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:08:37,033 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:13:37,169 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:18:37,415 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:23:37,571 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:28:37,707 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:33:37,843 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:38:37,980 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:43:38,115 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:48:38,250 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:53:38,383 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-22 23:58:38,518 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:03:38,652 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:08:38,820 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:13:38,958 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:18:39,094 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:23:39,331 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:28:39,393 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:33:39,532 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:38:39,615 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:43:39,751 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:48:39,887 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:53:39,964 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 00:58:40,075 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:03:40,209 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:08:40,558 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:13:40,695 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:18:40,830 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:40:44,269 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:45:44,427 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:50:44,681 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 01:55:44,938 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:00:45,192 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:05:45,450 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:10:45,459 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:15:45,619 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:20:45,789 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:25:45,949 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:30:46,204 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:35:46,362 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-09-23 02:40:46,624 INFO - Adopting or resetting orphaned tasks for active dag runs

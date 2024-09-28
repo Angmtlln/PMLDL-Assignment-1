@@ -7,3 +7,207 @@
 [[34m2024-09-21T23:58:24.265+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2024-09-22T00:03:24.417+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2024-09-22T00:08:24.568+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:13:24.719+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:18:24.871+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:23:25.022+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:28:25.174+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:33:25.325+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:38:25.389+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:43:25.552+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:48:25.705+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:53:25.857+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T00:58:26.009+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:03:26.164+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:08:26.178+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:13:26.328+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:18:26.482+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:23:26.635+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:28:26.790+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:33:26.944+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:38:27.098+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:43:27.350+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T01:45:55.819+0300[0m] {[34mscheduler_job_runner.py:[0m413} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:45:54.465140+00:00 [scheduled]>[0m
+[[34m2024-09-22T01:45:55.820+0300[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG data_prepare_dag has 0/16 running and queued tasks[0m
+[[34m2024-09-22T01:45:55.820+0300[0m] {[34mscheduler_job_runner.py:[0m592} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:45:54.465140+00:00 [scheduled]>[0m
+[[34m2024-09-22T01:45:55.821+0300[0m] {[34mtaskinstance.py:[0m1441} WARNING[0m - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved[0m
+[[34m2024-09-22T01:45:55.821+0300[0m] {[34mscheduler_job_runner.py:[0m635} INFO[0m - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:45:54.465140+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-09-22T01:45:55.821+0300[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:45:54.465140+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T01:45:55.830+0300[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:45:54.465140+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T01:45:56.478+0300[0m] {[34mdagbag.py:[0m536} INFO[0m - Filling up the DagBag from /home/amir/MlOps/services/airflow/dags/data_dag.py[0m
+[[34m2024-09-22T01:45:56.537+0300[0m] {[34mexample_python_operator.py:[0m86} WARNING[0m - The virtalenv_python example task requires virtualenv, please install it.[0m
+[[34m2024-09-22T01:45:56.538+0300[0m] {[34mexample_kubernetes_executor.py:[0m38} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-09-22T01:45:56.575+0300[0m] {[34mtutorial_taskflow_api_virtualenv.py:[0m29} WARNING[0m - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.[0m
+[[34m2024-09-22T01:45:56.648+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-09-22T01:45:56.649+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+Changing /home/amir/MlOps/services/airflow/logs/dag_id=data_prepare_dag/run_id=manual__2024-09-21T22:45:54.465140+00:00/task_id=prepare_data_task permission to 509
+[[34m2024-09-22T01:45:57.183+0300[0m] {[34mtask_command.py:[0m416} INFO[0m - Running <TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:45:54.465140+00:00 [queued]> on host DESKTOP-1TF8UML.[0m
+[[34m2024-09-22T01:45:57.742+0300[0m] {[34mscheduler_job_runner.py:[0m685} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:45:54.465140+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-09-22T01:45:57.747+0300[0m] {[34mscheduler_job_runner.py:[0m722} INFO[0m - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-21T22:45:54.465140+00:00, map_index=-1, run_start_date=2024-09-21 22:45:57.225212+00:00, run_end_date=2024-09-21 22:45:57.356416+00:00, run_duration=0.131204, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-21 22:45:55.820464+00:00, queued_by_job_id=1, pid=64553[0m
+[[34m2024-09-22T01:45:57.893+0300[0m] {[34mdagrun.py:[0m632} ERROR[0m - Marking run <DagRun data_prepare_dag @ 2024-09-21 22:45:54.465140+00:00: manual__2024-09-21T22:45:54.465140+00:00, state:running, queued_at: 2024-09-21 22:45:54.488378+00:00. externally triggered: True> failed[0m
+[[34m2024-09-22T01:45:57.894+0300[0m] {[34mdagrun.py:[0m704} INFO[0m - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-21 22:45:54.465140+00:00, run_id=manual__2024-09-21T22:45:54.465140+00:00, run_start_date=2024-09-21 22:45:55.782981+00:00, run_end_date=2024-09-21 22:45:57.894310+00:00, run_duration=2.111329, state=failed, external_trigger=True, run_type=manual, data_interval_start=2024-09-21 22:45:54.465140+00:00, data_interval_end=2024-09-21 22:45:54.465140+00:00, dag_hash=22d627aa84e9792d511ab7bb5204c77e[0m
+[[34m2024-09-22T01:46:37.341+0300[0m] {[34mscheduler_job_runner.py:[0m413} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:46:36.086164+00:00 [scheduled]>[0m
+[[34m2024-09-22T01:46:37.341+0300[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG data_prepare_dag has 0/16 running and queued tasks[0m
+[[34m2024-09-22T01:46:37.341+0300[0m] {[34mscheduler_job_runner.py:[0m592} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:46:36.086164+00:00 [scheduled]>[0m
+[[34m2024-09-22T01:46:37.342+0300[0m] {[34mtaskinstance.py:[0m1441} WARNING[0m - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved[0m
+[[34m2024-09-22T01:46:37.342+0300[0m] {[34mscheduler_job_runner.py:[0m635} INFO[0m - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:46:36.086164+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-09-22T01:46:37.343+0300[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:46:36.086164+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T01:46:37.350+0300[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-21T22:46:36.086164+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T01:46:38.024+0300[0m] {[34mdagbag.py:[0m536} INFO[0m - Filling up the DagBag from /home/amir/MlOps/services/airflow/dags/data_dag.py[0m
+[[34m2024-09-22T01:46:38.084+0300[0m] {[34mexample_python_operator.py:[0m86} WARNING[0m - The virtalenv_python example task requires virtualenv, please install it.[0m
+[[34m2024-09-22T01:46:38.086+0300[0m] {[34mexample_kubernetes_executor.py:[0m38} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-09-22T01:46:38.131+0300[0m] {[34mtutorial_taskflow_api_virtualenv.py:[0m29} WARNING[0m - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.[0m
+[[34m2024-09-22T01:46:38.209+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-09-22T01:46:38.210+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+Changing /home/amir/MlOps/services/airflow/logs/dag_id=data_prepare_dag/run_id=manual__2024-09-21T22:46:36.086164+00:00/task_id=prepare_data_task permission to 509
+[[34m2024-09-22T01:46:38.754+0300[0m] {[34mtask_command.py:[0m416} INFO[0m - Running <TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-21T22:46:36.086164+00:00 [queued]> on host DESKTOP-1TF8UML.[0m
+[[34m2024-09-22T01:46:49.137+0300[0m] {[34mscheduler_job_runner.py:[0m685} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-21T22:46:36.086164+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-09-22T01:46:49.140+0300[0m] {[34mscheduler_job_runner.py:[0m722} INFO[0m - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-21T22:46:36.086164+00:00, map_index=-1, run_start_date=2024-09-21 22:46:38.795221+00:00, run_end_date=2024-09-21 22:46:48.731375+00:00, run_duration=9.936154, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-21 22:46:37.341640+00:00, queued_by_job_id=1, pid=64764[0m
+[[34m2024-09-22T01:46:49.300+0300[0m] {[34mdagrun.py:[0m653} INFO[0m - Marking run <DagRun data_prepare_dag @ 2024-09-21 22:46:36.086164+00:00: manual__2024-09-21T22:46:36.086164+00:00, state:running, queued_at: 2024-09-21 22:46:36.095038+00:00. externally triggered: True> successful[0m
+[[34m2024-09-22T01:46:49.300+0300[0m] {[34mdagrun.py:[0m704} INFO[0m - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-21 22:46:36.086164+00:00, run_id=manual__2024-09-21T22:46:36.086164+00:00, run_start_date=2024-09-21 22:46:37.310762+00:00, run_end_date=2024-09-21 22:46:49.300933+00:00, run_duration=11.990171, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-21 22:46:36.086164+00:00, data_interval_end=2024-09-21 22:46:36.086164+00:00, dag_hash=22d627aa84e9792d511ab7bb5204c77e[0m
+[[34m2024-09-22T12:07:29.269+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:12:29.423+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:17:29.677+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:22:29.932+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:27:30.479+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:32:30.638+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:37:30.896+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:51:44.234+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T12:51:44.236+0300[0m] {[34mscheduler_job_runner.py:[0m1628} INFO[0m - Marked 1 SchedulerJob instances as failed[0m
+[[34m2024-09-22T12:56:44.303+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:01:44.438+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:06:44.584+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:11:44.719+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:16:44.853+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:21:44.993+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:26:45.130+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:31:45.263+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:36:45.272+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:41:45.406+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:46:45.540+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:51:45.632+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T13:56:45.767+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:01:45.902+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:06:46.036+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:11:46.171+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:16:46.306+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:21:46.545+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:26:46.780+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:31:46.916+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:36:47.051+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:41:47.186+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:46:47.335+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:51:47.470+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T14:56:47.604+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:01:47.742+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:06:47.877+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:11:48.010+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:16:48.146+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:21:48.207+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:26:48.342+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:31:48.478+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:36:48.614+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:41:48.749+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:46:48.885+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:51:49.323+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T15:55:38.377+0300[0m] {[34mscheduler_job_runner.py:[0m413} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-22T12:55:37.857242+00:00 [scheduled]>[0m
+[[34m2024-09-22T15:55:38.377+0300[0m] {[34mscheduler_job_runner.py:[0m476} INFO[0m - DAG data_prepare_dag has 0/16 running and queued tasks[0m
+[[34m2024-09-22T15:55:38.377+0300[0m] {[34mscheduler_job_runner.py:[0m592} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-22T12:55:37.857242+00:00 [scheduled]>[0m
+[[34m2024-09-22T15:55:38.378+0300[0m] {[34mtaskinstance.py:[0m1441} WARNING[0m - cannot record scheduled_duration for task prepare_data_task because previous state change time has not been saved[0m
+[[34m2024-09-22T15:55:38.379+0300[0m] {[34mscheduler_job_runner.py:[0m635} INFO[0m - Sending TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-22T12:55:37.857242+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-09-22T15:55:38.379+0300[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-22T12:55:37.857242+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T15:55:38.389+0300[0m] {[34msequential_executor.py:[0m74} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'data_prepare_dag', 'prepare_data_task', 'manual__2024-09-22T12:55:37.857242+00:00', '--local', '--subdir', 'DAGS_FOLDER/data_dag.py'][0m
+[[34m2024-09-22T15:55:39.074+0300[0m] {[34mdagbag.py:[0m536} INFO[0m - Filling up the DagBag from /home/amir/MlOps/services/airflow/dags/data_dag.py[0m
+[[34m2024-09-22T15:55:39.137+0300[0m] {[34mexample_python_operator.py:[0m86} WARNING[0m - The virtalenv_python example task requires virtualenv, please install it.[0m
+[[34m2024-09-22T15:55:39.139+0300[0m] {[34mexample_kubernetes_executor.py:[0m38} WARNING[0m - The example_kubernetes_executor example DAG requires the kubernetes provider. Please install it with: pip install apache-airflow[cncf.kubernetes][0m
+[[34m2024-09-22T15:55:39.176+0300[0m] {[34mtutorial_taskflow_api_virtualenv.py:[0m29} WARNING[0m - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.[0m
+[[34m2024-09-22T15:55:39.242+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m39} WARNING[0m - Could not import DAGs in example_local_kubernetes_executor.py[0m
+Traceback (most recent call last):
+  File "/home/amir/MlOps/.venv/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[[34m2024-09-22T15:55:39.243+0300[0m] {[34mexample_local_kubernetes_executor.py:[0m40} WARNING[0m - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes][0m
+Changing /home/amir/MlOps/services/airflow/logs/dag_id=data_prepare_dag/run_id=manual__2024-09-22T12:55:37.857242+00:00/task_id=prepare_data_task permission to 509
+[[34m2024-09-22T15:55:39.765+0300[0m] {[34mtask_command.py:[0m416} INFO[0m - Running <TaskInstance: data_prepare_dag.prepare_data_task manual__2024-09-22T12:55:37.857242+00:00 [queued]> on host DESKTOP-1TF8UML.[0m
+[[34m2024-09-22T15:55:50.664+0300[0m] {[34mscheduler_job_runner.py:[0m685} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='data_prepare_dag', task_id='prepare_data_task', run_id='manual__2024-09-22T12:55:37.857242+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-09-22T15:55:50.667+0300[0m] {[34mscheduler_job_runner.py:[0m722} INFO[0m - TaskInstance Finished: dag_id=data_prepare_dag, task_id=prepare_data_task, run_id=manual__2024-09-22T12:55:37.857242+00:00, map_index=-1, run_start_date=2024-09-22 12:55:39.811813+00:00, run_end_date=2024-09-22 12:55:50.255617+00:00, run_duration=10.443804, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2024-09-22 12:55:38.378256+00:00, queued_by_job_id=1, pid=139995[0m
+[[34m2024-09-22T15:55:50.818+0300[0m] {[34mdagrun.py:[0m653} INFO[0m - Marking run <DagRun data_prepare_dag @ 2024-09-22 12:55:37.857242+00:00: manual__2024-09-22T12:55:37.857242+00:00, state:running, queued_at: 2024-09-22 12:55:37.865088+00:00. externally triggered: True> successful[0m
+[[34m2024-09-22T15:55:50.818+0300[0m] {[34mdagrun.py:[0m704} INFO[0m - DagRun Finished: dag_id=data_prepare_dag, execution_date=2024-09-22 12:55:37.857242+00:00, run_id=manual__2024-09-22T12:55:37.857242+00:00, run_start_date=2024-09-22 12:55:38.347479+00:00, run_end_date=2024-09-22 12:55:50.818350+00:00, run_duration=12.470871, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-09-22 12:55:37.857242+00:00, data_interval_end=2024-09-22 12:55:37.857242+00:00, dag_hash=37f0d3f4ebc2e07bc83c74887c834790[0m
+[[34m2024-09-22T15:56:49.417+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T16:01:49.553+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T16:06:49.800+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:18:33.726+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:23:33.816+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:28:33.951+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:33:34.087+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:38:34.235+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:43:34.370+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:48:34.460+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:53:34.596+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T21:58:34.730+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:03:34.744+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:08:34.824+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:13:34.962+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:18:35.181+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:23:35.316+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:28:35.450+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:33:35.597+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:38:35.745+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:43:35.985+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:48:36.335+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:53:36.491+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T22:58:36.647+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:03:36.791+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:08:37.033+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:13:37.169+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:18:37.415+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:23:37.571+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:28:37.707+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:33:37.843+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:38:37.980+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:43:38.115+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:48:38.250+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:53:38.383+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-22T23:58:38.518+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:03:38.652+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:08:38.820+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:13:38.958+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:18:39.094+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:23:39.331+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:28:39.393+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:33:39.532+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:38:39.615+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:43:39.751+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:48:39.887+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:53:39.964+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T00:58:40.075+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:03:40.209+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:08:40.558+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:13:40.695+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:18:40.830+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:40:44.269+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:45:44.427+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:50:44.681+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T01:55:44.938+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:00:45.192+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:05:45.450+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:10:45.459+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:15:45.619+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:20:45.789+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:25:45.949+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:30:46.204+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:35:46.362+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-09-23T02:40:46.624+0300[0m] {[34mscheduler_job_runner.py:[0m1605} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
