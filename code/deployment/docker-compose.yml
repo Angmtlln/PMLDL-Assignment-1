@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  api:
+    build: ./api
+    ports:
+      - "3500:3500"
+
+  app:
+    build: ./app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
